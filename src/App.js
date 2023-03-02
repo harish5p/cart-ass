@@ -1,10 +1,11 @@
 
 import './App.css';
+import { CardList } from './pages/CardList';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hellow!</h1>
+      <CardList />
     </div>
   );
 }
