@@ -7,9 +7,9 @@ export const Card = ({ imgSource }) => {
       <div className="m-2 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <Link to="#" >
           
-          <div className="max-w-lg ">
+          
             <img className="p-3 rounded-t-lg  " src={imgSource} alt="product" />
-          </div>
+         
 
         </Link>
         <div className="px-5 pb-5">
