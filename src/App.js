@@ -1,11 +1,15 @@
 
 import './App.css';
-import { CardList } from './pages/CardList';
+import { AllRoutes } from './routes/AllRoutes';
+import { Header, Footer } from './components';
 
 function App() {
   return (
     <div className="App">
-      <CardList />
+    <Header />
+    <AllRoutes />
+    <Footer />
+      
     </div>
   );
 }

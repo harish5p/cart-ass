@@ -1,6 +1,10 @@
+import { CartCard } from "../components/CartCard"
 
 export const Cart = () => {
   return (
-    <div>Cart</div>
+    <div>
+
+      <CartCard />
+    </div>
   )
 }
