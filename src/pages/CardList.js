@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import { Card } from "../components";
 
 
 export const CardList = () => {
+
+  useEffect(() => {
+    document.title = "Home - Shopping Cart"
+  });
   return (
     <main>
 
